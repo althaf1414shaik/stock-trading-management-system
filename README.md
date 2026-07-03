@@ -1,56 +1,24 @@
-Stock Trading Management System
+# 📈 Stock Trading Management System
 
-Project Overview
+[![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk)](https://adoptium.net/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?logo=springboot)](https://spring.io/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://reactjs.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql)](https://mysql.com/)
 
-The Stock Trading Management System is a web-based application developed to manage stock trading activities. The system allows users to buy and sell stocks, manage portfolios, and track transaction history.
+## 🚀 Overview
+A full-stack web application for managing stock portfolios. Users can buy/sell stocks, view real-time simulated market data, and track their profit/loss over time. Built with a clean microservices-ready architecture.
 
-Technologies Used
+## ✨ Key Features
+- **User Authentication** (JWT-based login & secure registration).
+- **Live Price Simulation** (WebSockets push price updates to the dashboard).
+- **Buy/Sell Orders** (Execute trades instantly and update portfolio holdings).
+- **Portfolio Dashboard** (Visualize holdings and P&L using interactive charts).
+- **Transaction History** (Complete audit log of all trades with timestamps).
 
-- Java
-- Spring Boot
-- PostgreSQL
-- HTML
-- CSS
-- JavaScript
-- Git & GitHub
+## 🛠️ Tech Stack
+- **Backend**: Java 17, Spring Boot 3, Spring Security, JPA/Hibernate.
+- **Database**: MySQL 8 (with Flyway for version-controlled schema migrations).
+- **Frontend**: React 18, Vite, Axios, Recharts (for graphs).
+- **DevOps**: Docker & Docker Compose (spin up everything with one command).
 
-Features
-
-- User Registration and Login
-- Stock Purchase Management
-- Stock Selling Management
-- Portfolio Tracking
-- Transaction History
-- Profit and Loss Calculation
-- Dashboard Reports
-
-Database Tables
-
-- users
-- stocks
-- portfolios
-- transactions
-
-System Architecture
-
-Frontend → Spring Boot REST API → PostgreSQL Database
-
-My Responsibilities
-
-- Requirement Analysis
-- Database Design
-- Backend Development
-- API Development
-- Testing and Debugging
-
-Future Enhancements
-
-- Real-Time Stock Market Integration
-- JWT Authentication
-- Cloud Deployment
-- Mobile Application Support
-
-Author
-
-Althaf Shaik
-Java Full Stack Developer
+## 📁 Project Structure
