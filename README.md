@@ -1,7 +1,7 @@
 # 📈 Stock Trading Management System
 
-[![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk)](https://adoptium.net/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?logo=springboot)](https://spring.io/)
+[![Java](https://img.shields.io/badge/Java-8-ED8B00?logo=openjdk)](https://adoptium.net/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.16-6DB33F?logo=springboot)](https://spring.io/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://reactjs.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql)](https://mysql.com/)
 
@@ -16,7 +16,7 @@ A full-stack web application for managing stock portfolios. Users can buy/sell s
 - **Transaction History** (Complete audit log of all trades with timestamps).
 
 ## 🛠️ Tech Stack
-- **Backend**: Java 17, Spring Boot 3, Spring Security, JPA/Hibernate.
+- **Backend**: Java 8, Spring Boot 2.7.16, Spring Security, JPA/Hibernate.
 - **Database**: MySQL 8 (with Flyway for version-controlled schema migrations).
 - **Frontend**: React 18, Vite, Axios, Recharts (for graphs).
 - **DevOps**: Docker & Docker Compose (spin up everything with one command).
