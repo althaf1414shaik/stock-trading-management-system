@@ -1,0 +1,19 @@
+server:
+  port: 4567
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/account
+    username: root
+    password: Dharani
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+#spring.db2:
+#  datasource:     
+#    url: jdbc:mysql://localhost:3306/account
+#    username: root
+#    password: Password
+#    driver-class-name: com.mysql.cj.jdbc.Driver
